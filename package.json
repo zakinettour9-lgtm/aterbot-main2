@@ -1,0 +1,20 @@
+{
+	"private": true,
+	"type": "module",
+	"name": "aterbot",
+	"version": "0.0.0",
+	"scripts": {
+		"start": "tsx ./src/index.ts",
+		"dev": "node --inspect --loader tsx ./src/index.ts"
+	},
+	"dependencies": {
+		"dotenv": "^17.2.3",
+		"mineflayer": "^4.33.0",
+		"tsx": "^4.7.1"
+	},
+	"description": "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](/LICENSE)   ### Keep your Aternos server alive 24/7. Please star this project <3   <br/>",
+	"main": "index.js",
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}
